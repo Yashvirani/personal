@@ -96,4 +96,5 @@ app.get('/',(req,res) => {
     res.send('hello');
 });
 
-app.listen(8000,() => console.log('Server On'));
+const port = process.env.port || 8000;
+app.listen(port,() => console.log('Server On'));
