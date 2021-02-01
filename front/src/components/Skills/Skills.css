@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rubik+Mono+One&display=swap");
+
+.skills {
+  height: 100vh;
+  background-color: #eaeded;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  margin-top: -3vh;
+  margin-bottom: 2vh;
+}
+
+.card {
+  width: 100%;
+}
+
+.progress {
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
+}
+
+.card {
+  padding-bottom: 0;
+  margin: 2%;
+}
+
+.card1 {
+  margin-top: 5vw;
+  height: 100%;
+  width: 100%;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+.heading {
+  font-weight: 800;
+  background-color: #eaeded;
+  padding-top: 15vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading1 {
+  font-weight: 800;
+  background-color: #eaeded;
+  padding-top: 7vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sk3 {
+  margin-right: 0;
+  padding-right: -60%;
+  margin-left: -50%;
+}
+.sk1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sk2 {
+  padding-right: 0vw;
+  margin-right: 0%;
+}
+
+@media (max-width: 1000px) {
+  .skills {
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 0vh;
+    padding-bottom: -10%;
+  }
+  .card1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .heading {
+    margin-bottom: 5vh;
+    padding-top: 13vh;
+    background-color: #eaeded;
+  }
+  .heading1 {
+    margin-bottom: 5vh;
+    padding-top: 5vh;
+    background-color: #eaeded;
+  }
+}

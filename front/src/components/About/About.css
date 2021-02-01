@@ -1,0 +1,177 @@
+.about {
+  display: flex;
+  background-color: #eaeded;
+  padding-bottom: 2vh;
+  padding-top: 5vh;
+}
+
+.aboutSvg {
+  object-fit: contain;
+  width: 40vw;
+  height: 50vh;
+  padding-top: 16vh;
+}
+
+.avatarSvg {
+  object-fit: contain;
+  width: 20%;
+  height: 15%;
+  margin-left: 0%;
+  padding-top: 0%;
+}
+
+.about {
+  margin-top: 2vh;
+  padding-right: 3vw;
+}
+
+.text-center {
+  margin-left: 37vw;
+}
+.card34 {
+  padding-bottom: 6vh;
+  border-radius: 20px;
+  padding-top: 3vh;
+  box-shadow: linear-gradient(1, 1, 1, 0.5);
+}
+
+.card2 {
+  padding-bottom: 6vh;
+  border-radius: 20px;
+  width: 100%;
+  padding-top: 3vh;
+  box-shadow: linear-gradient(1, 1, 1, 0.5);
+  margin-top: -2%;
+  margin-bottom: -5%;
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 2%;
+  font-family: "Rubik", sans-serif;
+
+  font-weight: 800;
+}
+
+.p1 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+
+  font-size: 0.8em;
+  margin-bottom: 0%;
+}
+
+.p2 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+
+  font-size: 0.8em;
+  margin-bottom: 0%;
+}
+
+.p3 {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+
+  font-size: 0.8em;
+  margin-bottom: 0%;
+}
+
+hr:not([size]) {
+  height: 1px;
+}
+
+hr {
+  margin: 1rem 0;
+  color: black;
+  background-color: black;
+  border: 0;
+  opacity: 0.6;
+}
+
+.hr1 {
+  margin-top: 0%;
+  margin-bottom: 1.5%;
+}
+
+.hr2 {
+  margin-top: 0%;
+  margin-bottom: 1.5%;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkedIn:hover {
+  background-color: #0077b5;
+}
+
+.buttonCV {
+  margin-left: 0%;
+  border-radius: 5em;
+  margin-bottom: 2vh;
+}
+
+.web {
+  font-family: "Rubik", sans-serif;
+  font-size: 2em;
+  color: #3f51b5;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills2 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.hr5 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+@media (max-width: 720px) {
+  .about {
+    padding-bottom: 0;
+    padding-top: 5vh;
+  }
+  .aboutSvg {
+    width: 100%;
+    height: 40vh;
+    padding-top: 0%;
+  }
+  .text-center {
+    margin-left: 31%;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  hr:not([size]) {
+    height: 1.5px;
+  }
+
+  hr {
+    margin: 1rem 0;
+    color: black;
+    background-color: black;
+    border: 0;
+    opacity: 0.9;
+  }
+  .buttonCV {
+    margin-left: 2%;
+    border-radius: 5em;
+  }
+
+  .web {
+    font-size: 1.2em;
+  }
+  .details {
+    flex-direction: column;
+    text-align: center;
+  }
+}

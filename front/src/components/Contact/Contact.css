@@ -1,0 +1,46 @@
+.contact {
+  background-color: #eaeded;
+}
+
+.svg55 {
+  height: 90%;
+  object-fit: contain;
+  width: 100%;
+  padding-top: 15vh;
+}
+
+.card09 {
+  margin-top: 13vh;
+}
+
+.alert {
+  margin: 2vh;
+}
+
+.btn800 {
+  color: white;
+}
+
+.heading23 {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 15vh;
+  margin-bottom: -10vh;
+}
+
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: white;
+  background-color: #3f51b5;
+}
+
+@media (max-width: 1000px) {
+  .contact {
+    padding-right: 4vw;
+    padding-left: -2vw;
+  }
+  .card09 {
+    margin-top: 0;
+    margin-left: 1%;
+  }
+}

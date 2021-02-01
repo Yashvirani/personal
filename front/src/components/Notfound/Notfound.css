@@ -1,0 +1,67 @@
+/*======================
+    404 page
+=======================*/
+
+.notfound {
+  width: 100%;
+  padding-top: 6vh;
+}
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: "Arvo", serif;
+  margin-left: -10%;
+}
+
+.p404 {
+  margin-left: -11%;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  margin-left: -60%;
+  height: 63vh;
+  background-position: center;
+  padding-right: -5vw;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+.contant_box_404 {
+  margin-top: -50px;
+  margin-right: 50vw;
+}
+
+@media (max-width: 1000px) {
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    margin-left: -40%;
+    height: 55vh;
+    background-position: center;
+  }
+  .p404 {
+    margin-left: -11%;
+    margin-right: 0;
+  }
+  .contant_box_404 {
+    margin-top: -2vh;
+    margin-right: 32%;
+  }
+}

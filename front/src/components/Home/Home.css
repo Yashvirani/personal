@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  margin: 2vw;
+}
+
+.logo > h2 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo:hover {
+  color: white;
+  cursor: pointer;
+}
+.background {
+  display: flex;
+  align-items: center;
+  padding: 2vh 4vw;
+  border-radius: 20px;
+}
+.right {
+  display: flex;
+  margin-left: 25vw;
+  justify-content: space-between;
+}
+
+.right > div > h4 {
+  /* margin-left: 5vw; */
+  padding-left: 5vw;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.right > div > h4:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.right > div {
+  margin: 0;
+}
+
+.down {
+  display: flex;
+  padding-right: 3.5vw;
+}
+
+.down_left {
+  width: 50%;
+}
+
+.down_right {
+  width: 50%;
+}
+
+.down_right > svg {
+  height: 50%;
+  object-fit: contain;
+  width: 100%;
+  padding-top: 14vh;
+}
+
+.left_svg > img {
+  object-fit: contain;
+  width: 25%;
+  margin-left: 40%;
+  margin-top: -100%;
+  padding-top: -100%;
+}
+
+.down_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: -10%;
+}
+
+.mobile_nav {
+  z-index: 1050;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: none;
+  }
+}
+.MuiGrid-root.makeStyles-down_right-15.MuiGrid-item.MuiGrid-grid-xs-12.MuiGrid-grid-md-6 {
+  padding-right: 0%;
+  padding-top: 10vh;
+}
+
+@media (min-width: 500px) {
+  .mobile_nav {
+    display: none;
+  }
+}

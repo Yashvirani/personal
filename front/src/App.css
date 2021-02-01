@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+.app {
+  margin: 0;
+  background-color: #eaeded;
+  padding-bottom: 4%;
+}
+
+/* @media (min-width: 1000px) {
+  .MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters {
+    display: none;
+  }
+} */
