@@ -6,8 +6,8 @@ var transporter = nodemailer.createTransport({
   service: 'gmail',
   secure:false,
   auth: {
-    user: 'viraniyash2001@gmail.com', // your email address to send email from
-    pass: 'yashk123' // your gmail account password
+    user: process.env.email, // your email address to send email from
+    pass: process.env.password // your gmail account password
   },
   tls:{
       rejectUnauthorized:false
